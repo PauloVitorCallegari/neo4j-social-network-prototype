@@ -118,6 +118,7 @@ WHERE u1 <> u2 AND NOT (u1)-[:FOLLOWS]-(u2)
 RETURN path;
 ```
 ![Querie 3)](assets/querie3.png)
+
 ## 5. Troubleshooting (Cicatrizes de Projeto)
 Durante o desenvolvimento deste protótipo, alguns desafios arquiteturais foram superados:
 
