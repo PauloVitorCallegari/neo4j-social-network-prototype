@@ -133,7 +133,8 @@ Problema: Inicialmente, o relacionamento entre usuário e post não expressava a
 Solução: Refatoração da modelagem para utilizar verbos transitivos claros (:POSTED, :LIKED), tornando o código Cypher altamente legível e próximo da linguagem natural de negócio.
 
 ### <img width="357" height="387" alt="modelo_grafo" src="https://github.com/user-attachments/assets/2e68f914-1ea2-49f0-a937-9d289faccc52" />
-3. Grafos Vazios em Filtros Negativos:
+
+### 3. Grafos Vazios em Filtros Negativos:
 
 Problema: Ao testar a query de comunidades que filtrava usuários que "não se conheciam", o retorno era vazio, pois o dataset de teste era pequeno e altamente conectado.
 
